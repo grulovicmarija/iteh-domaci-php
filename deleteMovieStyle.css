@@ -1,0 +1,91 @@
+body {
+	background: url(images/film-strip.jpg);
+	background-size: 100%;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	font-family: sans-serif;	
+}
+
+table{
+	width: 50%;
+	margin: 30px auto;
+	border-collapse: collapse;
+	text-align: left;
+	color: navy;
+	background-color: lightgrey;
+}
+
+tr {
+	border-bottom: 2px solid #cbcbcb;
+}
+
+th, td{
+    padding: 2px 15px;
+	border: none;
+	height: 30px;
+}
+
+tr:hover {
+	background-color: darkcyan;
+}
+
+.home{
+	position: absolute;
+	left:50px;
+	top:50px;		
+}
+
+.home a {
+	text-decoration: none;
+	position: center;
+	left:30px;
+	top:70px;
+}
+
+.button{
+	display: block;	
+	border-radius: 12px;
+}
+
+.button:hover{
+	color: darkblue;
+}
+
+.notification{
+	margin-left: 600px;
+	margin-top: 40px;
+	font-weight: bolder;
+	color: whitesmoke;
+}
+
+.change{
+	width: 300px;
+	height: 320px;
+	background:lightgray;
+	color: navy;
+	top: 100px;
+	left: 77%;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 30px 30px;	
+}
+
+.button1{
+    text-decoration: none;
+	background-color: navy;
+	display: block;	
+	border-radius: 12px;
+	width: 120px;
+	height: 35px;	
+	margin-top: 40px;
+	margin-left: 50px;
+	color: lightgray;
+	font-weight: bolder;
+	font-size: large;
+}
+
+.textbox{
+	margin: 10px 0;
+	width: 200px;
+	height: 20px;
+}
